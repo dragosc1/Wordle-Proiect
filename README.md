@@ -82,6 +82,7 @@ Pentru implementarea jocului am structurat codul in clase (folosind programarea 
 - Conceptului de cuvant  - clasa Word – prin care sunt reprezentate sirurile de caractere de lungime 5 implicate in joc
 - Conceptului de bază de date de cuvinte – clasa WordDatabase – prin care reținem informatiile legate de lista de cuvinte pe care o folosim pentru căutări
 
+Pentru rularea programelor se va accesa întâi calea Wordle_Game/x64/Release/Wordle_Game.exe, iar după se va accesa calea Wordle_Bot/x64/Release/Wordle_Bot.exe.
 
 Numărul mediu de încercări: 4,14196
 

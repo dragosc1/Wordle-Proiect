@@ -3,7 +3,7 @@ Echipa: Ștefănescu Anastasia– grupa 152, Luculescu Teodor – grupa 151, Cio
 # **Descriere program Wordle**
 **Conexiunea între două programe prin socket**
 
-`	`WinSock reprezintă API-ul celor de la Microsoft pentru a realiza conexiunea între două programe prin intermediul socketului în cadrul unui program C++.
+WinSock reprezintă API-ul celor de la Microsoft pentru a realiza conexiunea între două programe prin intermediul socketului în cadrul unui program C++.
 
 În realizarea proiectului nostru am folosit API-ul WinSock2.
 
@@ -44,7 +44,7 @@ Pentru a realiza interfața grafică din proiectul Wordle, ne-am folosit de bibl
 
 1) Jocul este deshis într-o nouă fereastră de dimensiunea 1024x860 pixeli (sf::RenderWindow din SFML).  
 1) Se generează aleator un cuvânt din lista de cuvinte disponibilă (not. cuv\_rand). 
-1) ` `Programul primește cuvântul de entropie maximă (not. cuv\_entr) de la client (jucătorul optim de wordle). În funcție de cuvântul ales avem două cazuri: 
+1) Programul primește cuvântul de entropie maximă (not. cuv\_entr) de la client (jucătorul optim de wordle). În funcție de cuvântul ales avem două cazuri: 
    - cuv\_rand = cuv\_entr, caz în care jocul rămâne deschis, dar nu mai comunică cu clientul, iar acesta poate fi doar închis. 
    - cuv\_rand ≠ cuv\_entr, caz în care jocul trimite clientului un hash de forma “yygvy”, unde:  
      - y – cuv\_rand[i] ≠ cuv\_entr[i] 
